@@ -1,0 +1,132 @@
+
+@media screen and (max-width:992px) {
+    .banner_img {
+        width: 65%;
+    }
+    .banner_area .banner_text h1 {
+        font-size: 65px;
+    }
+    .banner_area .banner_text .banner_dis {
+        width: 100%;
+    }
+    .btn {
+        margin-right: 5px;
+    }
+    .about_text {
+        padding: 80px 50px;
+    }
+    #work_section .work_container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    #work_section .work_container .child_work {
+        width: 49%;
+    }
+    #summery_section .summer_container .child_education, .experience_area .child_experience {
+        margin: 30px;
+    }
+    #summery_section .summer_container h4 {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner_area {
+        flex-direction: column;
+    }
+    .banner_area .banner_text {
+        width: 100%;
+        padding: 20px;
+    }
+    .banner_img {
+        width: 75%;
+        margin: auto;
+    }
+    .about_text {
+        padding: 80px 15px;
+    }
+    .about_info p {
+        font-size: 15px;
+    }
+    #work_section .work_short_discrib {
+        width: 98%;
+    }
+    #work_section .work_container .child_work {
+        width: 80%;
+        margin: auto;
+    }
+    #summery_section .summer_container {
+        flex-direction: column;
+    }
+    #summery_section .summer_container .child_education, .experience_area .child_experience {
+        margin: 30px 0;
+    }
+    .summer_container p {
+        width: 100%;
+    }
+    .education_area,.experience_area{
+        padding: 10px;
+    }
+    footer .footer_container {
+        padding: 130px 10px;
+        flex-direction: column;
+    }
+    footer .footer_left, footer .footer_right {
+        width: 100%;
+    }
+    footer .social_area {
+        margin-bottom: 20px;
+    }
+}
+@media screen  and (max-width:576px){
+    nav ul {
+        display: none;
+    }
+    .banner_area .banner_text {
+        padding: 10px;
+    }
+    .banner_area .banner_text h1 {
+        font-size: 55px;
+    }
+    .btn {
+        margin-right: 0px;
+        display: block;
+        margin: auto;
+    }
+    .second_btn{
+        margin-top: 20px;
+    }
+    .short_discrib {
+        font-size: 16px;
+        width: 100%;
+        text-align: justify;
+    }
+    .about_info {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .about_info .child_info{
+        width: 49%;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width:280px) {
+    .banner_area .banner_text h1 {
+        font-size: 40px;
+    }
+    .about_info {
+        flex-direction: column;
+    }
+    #work_section .work_container .child_work {
+        width: 95%;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    #summery_section .summer_container h3 {
+        font-size: 25px;
+    }
+    form input, textarea {
+        padding: 14px 20px;
+    }
+}
